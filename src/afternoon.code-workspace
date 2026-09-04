@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../Sp26/Church/powerwave/afternoon"
+		},
+		{
+			"path": "../../기도"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "기도"
+	}
+}
