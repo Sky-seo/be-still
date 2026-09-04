@@ -13,7 +13,7 @@ export const CONFIG = {
   MIN_TORSO_KEYPOINTS: 2,       // need at least this many upper-body points to trust a person's centroid
   CAMERA_FLIP_HORIZONTAL: false, // keep model input stable; screen mirroring is applied after tracking
   CAMERA_ROTATION_DEG: 90,      // rotate camera input before tracking/view; -90 = left, 90 = right
-  SCREEN_FLIP_HORIZONTAL: true,  // flip final silhouette/mask coordinates to match the projected screen
+  SCREEN_FLIP_HORIZONTAL: false, // flip final silhouette/mask coordinates to match the projected screen
 
   // ---- Person tracking / identity ----------------------------------------
   MATCH_MAX_DISTANCE: 0.34,     // normalized (0-1 of frame diagonal) max jump to match same person across frames
